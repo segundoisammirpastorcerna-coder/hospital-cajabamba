@@ -13,6 +13,8 @@ def filtrar_por_medico(citas, medico):
         lambda cita: cita.medico.lower() == medico.lower(),
         citas
     ))
+
+#Obtener las fechas de las citas registradas
 def transformar_fechas(citas):
     return list(map(
         lambda cita: cita.fecha,
