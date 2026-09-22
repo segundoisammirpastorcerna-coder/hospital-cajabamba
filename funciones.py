@@ -1,4 +1,4 @@
-#Función para filtrar citas por especialidad
+#Funciones para gestionar las citas médicas
 
 #Filtrar citas según la especialidad médica
 def filtrar_por_especialidad(citas, especialidad):
