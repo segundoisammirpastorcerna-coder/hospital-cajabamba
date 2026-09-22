@@ -1,3 +1,4 @@
+#Función para filtrar citas por especialidad
 def filtrar_por_especialidad(citas, especialidad):
     return list(filter(
         lambda cita: cita.especialidad.lower() == especialidad.lower(),
