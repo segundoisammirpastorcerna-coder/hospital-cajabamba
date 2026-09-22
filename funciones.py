@@ -6,6 +6,8 @@ def filtrar_por_especialidad(citas, especialidad):
         lambda cita: cita.especialidad.lower() == especialidad.lower(),
         citas
     ))
+
+#Filtrar citas según el médico tratante
 def filtrar_por_medico(citas, medico):
     return list(filter(
         lambda cita: cita.medico.lower() == medico.lower(),
