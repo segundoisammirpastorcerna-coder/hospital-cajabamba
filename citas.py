@@ -1,3 +1,4 @@
+#Validación y gestión de citas médicas
 class CitaMedica:
     def __init__(self, codigo, paciente, fecha, especialidad, medico):
         self.codigo = codigo
