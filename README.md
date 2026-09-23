@@ -1,5 +1,5 @@
 # hospital-cajabamba
-Sistema de gestión de pacientes y citas médicas
+El sistema permite gestionar pacientes y citas médicas.
 ## Pruebas unitarias
 
 El proyecto cuenta con cuatro pruebas unitarias automatizadas
