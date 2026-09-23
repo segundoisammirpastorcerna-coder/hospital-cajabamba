@@ -1,3 +1,4 @@
+#Clases principales del sistema de citas médicas
 #Gestión y búsqueda de pacientes registrados
 class Paciente:
     def __init__(self, dni, nombres, apellidos, edad, telefono):
